@@ -97,7 +97,7 @@
     "latitude": 3.044170,
     "longitude": 101.592858
   },
-  "telephone": "+60179081447",
+  "email": "subangperdanagoodyearcourt@gmail.com",
   "url": "https://subangperdanagoodyearcourt6.github.io/repository/",
   "containedInPlace": {
     "@type": "Place",
@@ -115,8 +115,7 @@
   "name": "Restoran Pak Haji Ali & Muiz Hot Chicken - Subang Jaya (USJ 8)",
   "image": "https://subangperdanagoodyearcourt6.github.io/repository/images/sponsored-image.webp",
   "url": "https://subangperdanagoodyearcourt6.github.io/repository/",
-  "telephone": "+60179081447",
-  "email": "admin@muizhotchicken.com",
+  "email": "subangperdanagoodyearcourt@gmail.com",
   "priceRange": "RM1 - RM33",
   "servesCuisine": ["Malaysian", "Thai", "Nasi Kandar", "Fried Chicken", "Tomyam", "Roti Canai", "Halal"],
   "description": "JAKIM Halal certified crispy Muiz Hot Chicken, authentic Nasi Kandar & Malaysian-Thai cuisine in Subang Jaya USJ 8. Located at Goodyear Court 6.",
@@ -204,7 +203,7 @@
       "name": "Can residents place bulk orders for events?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, the restaurant accepts bulk orders for community events, office lunches and family gatherings. Contact them via WhatsApp at +6017-908 1447."
+        "text": "Yes, the restaurant accepts bulk orders for community events, office lunches and family gatherings. Contact the management at subangperdanagoodyearcourt@gmail.com for assistance."
       }
     },
     {
@@ -235,30 +234,8 @@
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Home","item":"https://subangperdanagoodyearcourt6.github.io/repository/"},
     {"@type":"ListItem","position":2,"name":"Community","item":"https://subangperdanagoodyearcourt6.github.io/repository/#spotlight"},
-    {"@type":"ListItem","position":3,"name":"Menu","item":"https://subangperdanagoodyearcourt6.github.io/repository/#menu"},
-    {"@type":"ListItem","position":4,"name":"Reviews","item":"https://subangperdanagoodyearcourt6.github.io/repository/#reviews"},
-    {"@type":"ListItem","position":5,"name":"Visit","item":"https://subangperdanagoodyearcourt6.github.io/repository/#visit"}
-  ]
-}
-</script>
-
-<!-- 6. ItemList: Menu Highlights -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Community Favourites at Muiz Hot Chicken",
-  "description": "Most ordered dishes by residents of Goodyear Court 6 and visitors.",
-  "numberOfItems": 8,
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Nasi Kandar Muiz Hot Chicken","description":"Nasi kandar with signature Muiz hot chicken & rich curry sauce.","offers":{"@type":"Offer","price":"6.90","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Nasi Ayam Muiz Chicken","description":"Aromatic chicken rice with tender Muiz-style fried chicken, sambal.","offers":{"@type":"Offer","price":"8.90","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Original Regular Box","description":"2 Pieces of Muiz Hot Chicken.","offers":{"@type":"Offer","price":"10.00","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Cheese Regular Box","description":"2 Pieces + Cheese Sauce.","offers":{"@type":"Offer","price":"12.00","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Nasi Bujang","description":"White Rice + Omelette + Soup + Sambal.","offers":{"@type":"Offer","price":"3.90","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":6,"item":{"@type":"Product","name":"Bakso","description":"Authentic Indonesian beef meatball soup with savoury broth.","offers":{"@type":"Offer","price":"5.90","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":7,"item":{"@type":"Product","name":"Mee Pak Haji Ali","description":"Traditional recipe. Savoury noodles with special house blend.","offers":{"@type":"Offer","price":"6.90","priceCurrency":"MYR"}}},
-    {"@type":"ListItem","position":8,"item":{"@type":"Product","name":"Korean Spicy Regular Box","description":"2 Pieces + Korean Spicy Sauce.","offers":{"@type":"Offer","price":"13.00","priceCurrency":"MYR"}}}
+    {"@type":"ListItem","position":3,"name":"Reviews","item":"https://subangperdanagoodyearcourt6.github.io/repository/#reviews"},
+    {"@type":"ListItem","position":4,"name":"Visit","item":"https://subangperdanagoodyearcourt6.github.io/repository/#visit"}
   ]
 }
 </script>
@@ -509,39 +486,6 @@ p{margin:0 0 1rem;}
 .spotlight-actions{display:flex;flex-direction:column;gap:.6rem;}
 
 /* ============================================================
-   MENU
-   ============================================================ */
-.dish-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px;}
-.dish{
-  background:var(--bg-alt);border:1px solid var(--line);border-radius:var(--radius);
-  overflow:hidden;box-shadow:var(--shadow-sm);
-  display:flex;flex-direction:column;
-  transition:transform .2s,box-shadow .2s;
-}
-.dish:hover{transform:translateY(-4px);box-shadow:var(--shadow);}
-.dish-media{
-  aspect-ratio:16/11;
-  background:linear-gradient(140deg,#f0e2c6,#e8a838 70%,#c0392b);
-  position:relative;
-}
-.dish-media img{width:100%;height:100%;object-fit:cover;}
-.dish-body{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;flex:1;}
-.dish-body h3{font-size:.98rem;margin-bottom:.35rem;}
-.dish-body p{font-size:.82rem;color:var(--muted);margin:0 0 .9rem;}
-.dish-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
-.price{font-weight:800;color:var(--ink);font-size:.95rem;}
-.price s{color:var(--muted);font-weight:500;font-size:.78rem;margin-right:.3rem;}
-.pill{
-  font-size:.6rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
-  background:var(--red);color:#fff;padding:.25rem .6rem;border-radius:50px;
-}
-.pill-halal{background:rgba(31,157,85,.14);color:var(--green);}
-
-.menu-note{
-  margin-top:26px;text-align:center;font-size:.85rem;color:var(--muted);
-}
-
-/* ============================================================
    REVIEWS
    ============================================================ */
 .reviews-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;}
@@ -670,7 +614,7 @@ p{margin:0 0 1rem;}
 <div class="topbar">
   <div class="wrap topbar-inner">
     <span><i class="fas fa-shield-halved"></i> Official community page — Subang Perdana Goodyear Court 6 Management</span>
-    <span class="topbar-right"><i class="fas fa-phone"></i> +6017-908 1447</span>
+    <span class="topbar-right"><i class="fas fa-envelope"></i> subangperdanagoodyearcourt@gmail.com</span>
   </div>
 </div>
 
@@ -689,7 +633,6 @@ p{margin:0 0 1rem;}
 
     <nav class="nav" aria-label="Main navigation">
       <a href="#spotlight">Spotlight</a>
-      <a href="#menu">Menu</a>
       <a href="#reviews">Reviews</a>
       <a href="#visit">Visit</a>
     </nav>
@@ -724,7 +667,7 @@ p{margin:0 0 1rem;}
         </p>
 
         <div class="hero-actions">
-          <a href="#menu" class="btn btn-gold"><i class="fas fa-utensils"></i> See What's Cooking</a>
+          <a href="#spotlight" class="btn btn-gold"><i class="fas fa-star"></i> Discover More</a>
           <a href="#visit" class="btn btn-outline"><i class="fas fa-location-dot"></i> Get Directions</a>
         </div>
       </div>
@@ -784,8 +727,8 @@ p{margin:0 0 1rem;}
           <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-primary">
             <i class="fab fa-google"></i> Google Maps
           </a>
-          <a href="https://wa.me/60179081447" target="_blank" rel="noopener" class="btn btn-outline">
-            <i class="fab fa-whatsapp"></i> WhatsApp Order
+          <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Email Us
           </a>
         </div>
       </div>
@@ -825,7 +768,7 @@ p{margin:0 0 1rem;}
         <article class="card">
           <div class="card-icon"><i class="fas fa-bolt"></i></div>
           <h3>Fast &amp; Friendly Service</h3>
-          <p>Quick turnaround for busy mornings and lunch breaks. Friendly owners, generous portions, honest prices from RM1.50.</p>
+          <p>Quick turnaround for busy mornings and lunch breaks. Friendly owners, generous portions, honest prices.</p>
         </article>
 
         <article class="card">
@@ -840,141 +783,6 @@ p{margin:0 0 1rem;}
           <p>Bulk orders for community events, office lunches and family celebrations. Muiz Happy Boxes and Nasi Kandar packs available.</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       MENU HIGHLIGHTS
-       ============================================================ -->
-  <section class="section" id="menu" style="background:var(--bg-alt);border-block:1px solid var(--line);" aria-labelledby="menu-heading">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Most Ordered</span>
-        <h2 id="menu-heading">🔥 Community Favourites</h2>
-        <p>What your neighbours are ordering — all JAKIM Halal certified</p>
-      </div>
-
-      <div class="dish-grid">
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/nasikandarmuizchicken.webp" alt="Nasi Kandar Muiz Hot Chicken" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Nasi Kandar Muiz Hot Chicken</h3>
-            <p>Nasi kandar with signature Muiz hot chicken &amp; rich curry sauce.</p>
-            <div class="dish-foot">
-              <span class="price"><s>RM7.90</s> RM6.90</span>
-              <span class="pill">Promo</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/nasiayammuizchicken.webp" alt="Nasi Ayam Muiz Chicken" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Nasi Ayam Muiz Chicken</h3>
-            <p>Aromatic chicken rice with tender Muiz-style fried chicken, sambal.</p>
-            <div class="dish-foot">
-              <span class="price">RM8.90</span>
-              <span class="pill pill-halal">Halal</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/originalregularbox.webp" alt="Original Regular Box" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Original Regular Box</h3>
-            <p>2 pieces of crispy Muiz Hot Chicken 🍗</p>
-            <div class="dish-foot">
-              <span class="price">RM10.00</span>
-              <span class="pill pill-halal">Halal</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/cheeseregularbox.webp" alt="Cheese Regular Box" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Cheese Regular Box</h3>
-            <p>2 pieces + creamy cheese sauce.</p>
-            <div class="dish-foot">
-              <span class="price">RM12.00</span>
-              <span class="pill pill-halal">Halal</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/koreanspicyregularbox.webp" alt="Korean Spicy Regular Box" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Korean Spicy Regular Box</h3>
-            <p>2 pieces + Korean spicy sauce.</p>
-            <div class="dish-foot">
-              <span class="price">RM13.00</span>
-              <span class="pill pill-halal">Halal</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/nasibujang.webp" alt="Nasi Bujang" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Nasi Bujang</h3>
-            <p>White rice + omelette + soup + sambal. Budget-friendly.</p>
-            <div class="dish-foot">
-              <span class="price">RM3.90</span>
-              <span class="pill pill-halal">Value</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/meepakhajiali.webp" alt="Mee Pak Haji Ali" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Mee Pak Haji Ali</h3>
-            <p>Traditional recipe — savoury noodles with a special house blend.</p>
-            <div class="dish-foot">
-              <span class="price">RM6.90</span>
-              <span class="pill pill-halal">Halal</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="dish">
-          <div class="dish-media">
-            <img src="images/bakso.webp" alt="Bakso" loading="lazy" width="400" height="275" onerror="this.style.opacity=0" />
-          </div>
-          <div class="dish-body">
-            <h3>Bakso</h3>
-            <p>Authentic Indonesian beef meatball soup with savoury broth.</p>
-            <div class="dish-foot">
-              <span class="price"><s>RM9.00</s> RM5.90</span>
-              <span class="pill">Promo</span>
-            </div>
-          </div>
-        </article>
-
-      </div>
-
-      <p class="menu-note">
-        <i class="fas fa-circle-info"></i>
-        Full menu includes Nasi Goreng, Noodles, Roti Canai, Murtabak, Tomyam, Nasi Penyet, Gepuk,
-        Chicken Tenders, ZUS Coffee and more — over 150 items from RM1.00.
-      </p>
     </div>
   </section>
 
@@ -1111,18 +919,10 @@ p{margin:0 0 1rem;}
           </div>
 
           <div class="info-row">
-            <i class="fas fa-phone"></i>
-            <div>
-              <strong>+6017-908 1447</strong>
-              <span>Call or WhatsApp for orders &amp; catering</span>
-            </div>
-          </div>
-
-          <div class="info-row">
             <i class="fas fa-envelope"></i>
             <div>
-              <strong>admin@muizhotchicken.com</strong>
-              <span>Bulk orders, events &amp; enquiries</span>
+              <strong>subangperdanagoodyearcourt@gmail.com</strong>
+              <span>Management &amp; community enquiries</span>
             </div>
           </div>
 
@@ -1146,8 +946,8 @@ p{margin:0 0 1rem;}
             <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.7rem 1.2rem;font-size:.82rem;">
               <i class="fab fa-google"></i> Open Maps
             </a>
-            <a href="https://wa.me/60179081447?text=Hi%2C%20I%20want%20directions%20to%20your%20restaurant" target="_blank" rel="noopener" class="btn btn-outline" style="padding:.7rem 1.2rem;font-size:.82rem;">
-              <i class="fab fa-whatsapp"></i> Get Directions
+            <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-outline" style="padding:.7rem 1.2rem;font-size:.82rem;">
+              <i class="fas fa-envelope"></i> Email Us
             </a>
           </div>
         </aside>
@@ -1170,7 +970,8 @@ p{margin:0 0 1rem;}
             as part of our community. It is JAKIM Halal certified, KKM MeSTI certified, and has become
             the favourite gathering spot for residents and their guests. Please continue to support this
             local business — and kindly keep the surrounding area clean and park considerately.
-            For community matters, contact management at <a href="tel:+60179081447">+6017-908 1447</a>.
+            For community matters, contact management at
+            <a href="mailto:subangperdanagoodyearcourt@gmail.com">subangperdanagoodyearcourt@gmail.com</a>.
           </p>
         </div>
       </div>
@@ -1186,11 +987,11 @@ p{margin:0 0 1rem;}
         <h2 id="cta-heading">Hungry? It's downstairs. 🍗</h2>
         <p>Dine in, take away, or order delivery — JAKIM Halal certified and open every day from 9am to 9pm.</p>
         <div class="cta-actions">
-          <a href="https://wa.me/60179081447" target="_blank" rel="noopener" class="btn btn-gold">
-            <i class="fab fa-whatsapp"></i> Order on WhatsApp
+          <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-gold">
+            <i class="fas fa-envelope"></i> Email Management
           </a>
-          <a href="tel:+60179081447" class="btn btn-outline">
-            <i class="fas fa-phone"></i> Call +6017-908 1447
+          <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fab fa-google"></i> Google Maps
           </a>
         </div>
       </div>
@@ -1221,8 +1022,7 @@ p{margin:0 0 1rem;}
       <div>
         <h4>Connect</h4>
         <div class="footer-links">
-          <a href="https://wa.me/60179081447" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-          <a href="tel:+60179081447"><i class="fas fa-phone"></i> Call Us</a>
+          <a href="mailto:subangperdanagoodyearcourt@gmail.com"><i class="fas fa-envelope"></i> Email</a>
           <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener"><i class="fas fa-map-pin"></i> Google Maps</a>
           <a href="https://www.facebook.com/61591075012810/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i> Facebook</a>
           <a href="https://www.tiktok.com/@muiz.fried.chicken" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i> TikTok</a>
@@ -1266,4 +1066,4 @@ p{margin:0 0 1rem;}
 </script>
 
 </body>
-  </html>
+                   </html>
