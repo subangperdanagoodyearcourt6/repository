@@ -66,10 +66,11 @@
   "@id": "https://subangperdanagoodyearcourt6.github.io/repository/#website",
   "url": "https://subangperdanagoodyearcourt6.github.io/repository/",
   "name": "Subang Perdana Goodyear Court 6 Community",
-  "description": "Official community page for Subang Perdana Goodyear Court 6, USJ 8, Subang Jaya. The community recommends Restoran Pak Haji Ali & Muiz Hot Chicken.",
+  "description": "Official website for management of Subang Perdana Goodyear Court 6, USJ 8, Subang Jaya. The community recommends Restoran Pak Haji Ali & Muiz Hot Chicken.",
   "publisher": {
     "@type": "Organization",
-    "name": "Subang Perdana Goodyear Court 6 Management"
+    "name": "Subang Perdana Goodyear Court 6 Management",
+    "email": "subangperdanagoodyearcourt@gmail.com"
   }
 }
 </script>
@@ -97,6 +98,7 @@
   },
   "email": "subangperdanagoodyearcourt@gmail.com",
   "url": "https://subangperdanagoodyearcourt6.github.io/repository/",
+  "hasMap": "https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9",
   "containedInPlace": {
     "@type": "Place",
     "name": "Subang Jaya, Selangor, Malaysia"
@@ -104,7 +106,7 @@
 }
 </script>
 
-<!-- 3. Recommended Restaurant (third-party mention, no contact/social) -->
+<!-- 3. Recommended Restaurant (third-party mention) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -112,7 +114,6 @@
   "@id": "https://subangperdanagoodyearcourt6.github.io/repository/#restaurant",
   "name": "Restoran Pak Haji Ali & Muiz Hot Chicken - Subang Jaya (USJ 8)",
   "image": "https://subangperdanagoodyearcourt6.github.io/repository/images/sponsored-image.webp",
-  "url": "https://subangperdanagoodyearcourt6.github.io/repository/",
   "priceRange": "RM1 - RM33",
   "servesCuisine": ["Malaysian", "Thai", "Nasi Kandar", "Fried Chicken", "Tomyam", "Roti Canai", "Halal"],
   "description": "JAKIM Halal certified crispy Muiz Hot Chicken, authentic Nasi Kandar & Malaysian-Thai cuisine in Subang Jaya USJ 8. Located at Goodyear Court 6 and recommended by the local community.",
@@ -181,22 +182,6 @@
     },
     {
       "@type": "Question",
-      "name": "Can residents place bulk orders for events?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the restaurant accepts bulk orders for community events, office lunches and family gatherings. For community-related enquiries, contact the management at subangperdanagoodyearcourt@gmail.com."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is parking available at Goodyear Court 6?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, ample free parking is available in the Goodyear Court 6 area, making it convenient for residents and visitors."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What is the signature dish at Muiz Hot Chicken?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -208,7 +193,7 @@
       "name": "Is this the official website of Restoran Pak Haji Ali & Muiz Hot Chicken?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. This is the official community page of Subang Perdana Goodyear Court 6. The restaurant is recommended by the community but is an independent business."
+        "text": "No. This is the official website for management of Subang Perdana Goodyear Court 6. The restaurant is independently recommended by the community and is a separate business."
       }
     }
   ]
@@ -303,7 +288,9 @@ p{margin:0 0 1rem;}
   flex-wrap:wrap;
 }
 .topbar-inner i{color:var(--gold);margin-right:.35rem;}
-.topbar-right{opacity:.85;}
+.topbar-right{opacity:.9;}
+.topbar-right a{color:#fff;border-bottom:1px dotted rgba(255,255,255,.4);}
+.topbar-right a:hover{color:var(--gold);border-bottom-color:var(--gold);}
 
 /* ============================================================
    HEADER
@@ -510,6 +497,8 @@ p{margin:0 0 1rem;}
 .info-row i{color:var(--gold);font-size:1rem;margin-top:.2rem;width:18px;text-align:center;}
 .info-row strong{display:block;font-size:.88rem;}
 .info-row span{font-size:.83rem;color:var(--muted);}
+.info-row a{color:var(--ink);word-break:break-word;}
+.info-row a:hover{color:var(--gold);}
 .open-tag{
   display:inline-flex;align-items:center;gap:.4rem;
   background:rgba(31,157,85,.12);color:var(--green);
@@ -569,7 +558,7 @@ p{margin:0 0 1rem;}
 .footer-links i{color:var(--gold);width:16px;}
 .footer-bottom{
   padding-top:22px;display:flex;justify-content:space-between;gap:1rem;
-  flex-wrap:wrap;font-size:.78rem;opacity:.75;
+  flex-wrap:wrap;font-size:.78rem;opacity:.8;
 }
 
 /* ============================================================
@@ -602,8 +591,11 @@ p{margin:0 0 1rem;}
      ============================================================ -->
 <div class="topbar">
   <div class="wrap topbar-inner">
-    <span><i class="fas fa-shield-halved"></i> Official community page — Subang Perdana Goodyear Court 6 Management</span>
-    <span class="topbar-right"><i class="fas fa-globe"></i> subangperdanagoodyearcourt6.github.io/repository</span>
+    <span><i class="fas fa-shield-halved"></i> Official website for management — Subang Perdana Goodyear Court 6</span>
+    <span class="topbar-right">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:subangperdanagoodyearcourt@gmail.com">subangperdanagoodyearcourt@gmail.com</a>
+    </span>
   </div>
 </div>
 
@@ -714,8 +706,8 @@ p{margin:0 0 1rem;}
           </p>
         </div>
         <div class="spotlight-actions">
-          <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-primary">
-            <i class="fab fa-google"></i> View on Google Maps
+          <a href="https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9" target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fas fa-map-pin"></i> View Location
           </a>
           <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-outline">
             <i class="fas fa-envelope"></i> Community Enquiries
@@ -770,7 +762,7 @@ p{margin:0 0 1rem;}
         <article class="card">
           <div class="card-icon"><i class="fas fa-people-group"></i></div>
           <h3>Catering &amp; Gatherings</h3>
-          <p>Bulk orders for community events, office lunches and family celebrations. Muiz Happy Boxes and Nasi Kandar packs available.</p>
+          <p>Bulk orders for community events, office lunches and family celebrations — perfect for residents hosting guests.</p>
         </article>
       </div>
     </div>
@@ -867,8 +859,8 @@ p{margin:0 0 1rem;}
       </div>
 
       <div style="text-align:center;margin-top:32px;">
-        <a href="https://g.page/r/CUrZw9xvAXIPEBE/review" target="_blank" rel="noopener" class="btn btn-primary">
-          <i class="fab fa-google"></i> Leave a Review on Google
+        <a href="https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fas fa-map-pin"></i> View Location on Google Maps
         </a>
       </div>
     </div>
@@ -903,8 +895,16 @@ p{margin:0 0 1rem;}
           <div class="info-row">
             <i class="fas fa-location-dot"></i>
             <div>
-              <strong>J2-00-04, Subang Perdana Phase 3</strong>
-              <span>Persiaran Mulia, Goodyear Court 6, USJ 8<br>47610 Subang Jaya, Selangor</span>
+              <strong>Goodyear Court 6, Subang Perdana Phase 3</strong>
+              <span>Persiaran Mulia, USJ 8<br>47610 Subang Jaya, Selangor</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <i class="fas fa-store"></i>
+            <div>
+              <strong>Restoran Pak Haji Ali &amp; Muiz Hot Chicken</strong>
+              <span>J2-00-04 — ground floor of the apartment complex</span>
             </div>
           </div>
 
@@ -927,14 +927,14 @@ p{margin:0 0 1rem;}
           <div class="info-row">
             <i class="fas fa-globe"></i>
             <div>
-              <strong>subangperdanagoodyearcourt6.github.io/repository</strong>
-              <span>Official community website</span>
+              <strong>Official Management Website</strong>
+              <span><a href="https://subangperdanagoodyearcourt6.github.io/repository/">subangperdanagoodyearcourt6.github.io/repository</a></span>
             </div>
           </div>
 
           <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.2rem;">
-            <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.7rem 1.2rem;font-size:.82rem;">
-              <i class="fab fa-google"></i> Open Maps
+            <a href="https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9" target="_blank" rel="noopener" class="btn btn-primary" style="padding:.7rem 1.2rem;font-size:.82rem;">
+              <i class="fas fa-map-pin"></i> Open Maps
             </a>
             <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-outline" style="padding:.7rem 1.2rem;font-size:.82rem;">
               <i class="fas fa-envelope"></i> Email Us
@@ -978,8 +978,8 @@ p{margin:0 0 1rem;}
         <h2 id="cta-heading">Hungry? It's downstairs. 🍗</h2>
         <p>Dine in, take away, or order delivery — JAKIM Halal certified and open every day from 9am to 9pm.</p>
         <div class="cta-actions">
-          <a href="https://g.page/r/CUrZw9xvAXIPEBE" target="_blank" rel="noopener" class="btn btn-gold">
-            <i class="fab fa-google"></i> View on Google Maps
+          <a href="https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9" target="_blank" rel="noopener" class="btn btn-gold">
+            <i class="fas fa-map-pin"></i> View on Google Maps
           </a>
           <a href="mailto:subangperdanagoodyearcourt@gmail.com" class="btn btn-outline">
             <i class="fas fa-envelope"></i> Email Management
@@ -1001,7 +1001,7 @@ p{margin:0 0 1rem;}
       <div>
         <h4>Subang Perdana Goodyear Court 6</h4>
         <p>Persiaran Mulia, Subang Perdana Phase 3, USJ 8,<br>47610 Subang Jaya, Selangor, Malaysia.</p>
-        <p style="opacity:.7;">Official community page — management &amp; resident information.</p>
+        <p style="opacity:.7;">Official website for management — Subang Perdana Goodyear Court 6.</p>
       </div>
 
       <div>
@@ -1016,7 +1016,7 @@ p{margin:0 0 1rem;}
         <div class="footer-links">
           <a href="https://subangperdanagoodyearcourt6.github.io/repository/"><i class="fas fa-globe"></i> subangperdanagoodyearcourt6.github.io/repository</a>
           <a href="mailto:subangperdanagoodyearcourt@gmail.com"><i class="fas fa-envelope"></i> subangperdanagoodyearcourt@gmail.com</a>
-          <a href="https://maps.app.goo.gl/5gveC46wssP4ue2N6" target="_blank" rel="noopener"><i class="fas fa-map-pin"></i> Google Maps</a>
+          <a href="https://maps.app.goo.gl/vLAoa6xDZRKQ4N8q9" target="_blank" rel="noopener"><i class="fas fa-map-pin"></i> Goodyear Court 6 on Google Maps</a>
         </div>
       </div>
 
@@ -1024,7 +1024,7 @@ p{margin:0 0 1rem;}
 
     <div class="footer-bottom">
       <span>&copy; 2026 Subang Perdana Goodyear Court 6 Management. All rights reserved.</span>
-      <span>Community page · Independent recommendation · Not an official restaurant website</span>
+      <span>Official website for management — Subang Perdana Goodyear Court 6</span>
     </div>
   </div>
 </footer>
@@ -1056,4 +1056,4 @@ p{margin:0 0 1rem;}
 </script>
 
 </body>
-     </html>
+             </html>
